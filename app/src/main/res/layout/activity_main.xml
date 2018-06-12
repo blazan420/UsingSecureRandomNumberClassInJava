@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp"
+    app:layout_goneMarginTop="50dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -42,8 +43,7 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="TextView" />
+                    android:gravity="center" />
 
             </LinearLayout>
 
@@ -81,8 +81,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="TextView" />
+                    android:gravity="center" />
 
             </LinearLayout>
 
@@ -119,8 +118,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="TextView" />
+                    android:gravity="center" />
             </LinearLayout>
 
         </LinearLayout>
@@ -157,8 +155,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="TextView" />
+                    android:gravity="center" />
 
             </LinearLayout>
 
@@ -196,8 +193,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="TextView" />
+                    android:gravity="center" />
 
             </LinearLayout>
 
@@ -235,8 +231,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="TextView" />
+                    android:gravity="center" />
 
             </LinearLayout>
 
@@ -249,9 +244,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="244dp"
-        android:layout_marginEnd="128dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
         android:text="Roll The Dice" />
 
 </RelativeLayout>
