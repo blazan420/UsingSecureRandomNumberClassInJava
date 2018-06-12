@@ -85,6 +85,23 @@ public class MainActivity extends AppCompatActivity {
 
                     switch (faceNum) {
                         case 1:
+                            putTheRightValueToTheTextView(txtDiceNumber1, occurance, faceNum);
+                            break;
+                        case 2:
+                            putTheRightValueToTheTextView(txtDiceNumber2, occurance, faceNum);
+                            break;
+                        case 3:
+                            putTheRightValueToTheTextView(txtDiceNumber3, occurance, faceNum);
+                            break;
+                        case 4:
+                            putTheRightValueToTheTextView(txtDiceNumber4, occurance, faceNum);
+                            break;
+                        case 5:
+                            putTheRightValueToTheTextView(txtDiceNumber5, occurance, faceNum);
+                            break;
+                        case 6:
+                            putTheRightValueToTheTextView(txtDiceNumber6, occurance, faceNum);
+                            break;
 
                     }
 
